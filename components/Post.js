@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default Post({post}){
+export default function Post({post}){
   return (
     <div>
       <span>{post.id}</span>
@@ -11,5 +11,5 @@ export default Post({post}){
         </span>
       </Link>
     </div>
-  )
+  );
 }
